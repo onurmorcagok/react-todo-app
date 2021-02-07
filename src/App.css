@@ -39,7 +39,7 @@ h1 {
 .todo-input {
   padding: 14px 32px 14px 16px;
   border-radius: 4px 0 0 4px;
-  border: 2px solid #FF5912;
+  border: 2px solid #ff5912;
   outline: none;
   width: 320px;
   background: transparent;
@@ -66,7 +66,7 @@ h1 {
 }
 
 .todo-input.edit {
-  border: 2px solid #FF5912;
+  border: 2px solid #ff5912;
 }
 
 .todo-button.edit {
