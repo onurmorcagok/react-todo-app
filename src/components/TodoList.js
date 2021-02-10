@@ -18,7 +18,7 @@ function TodoList() {
   const removeTodo = (id) => {
     
     const removeArray = [...todos].filter((todo) => todo.id !== id);
-
+    
     setTodos(removeArray);
   };
 
