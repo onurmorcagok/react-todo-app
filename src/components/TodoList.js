@@ -11,14 +11,12 @@ function TodoList() {
     }
 
     const newTodos = [todo, ...todos];
-
     setTodos(newTodos);
   };
 
   const removeTodo = (id) => {
     
     const removeArray = [...todos].filter((todo) => todo.id !== id);
-    
     setTodos(removeArray);
   };
 
