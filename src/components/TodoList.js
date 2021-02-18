@@ -3,7 +3,6 @@ import TodoForm from "./TodoForm";
 import Todo from "./Todo";
 
 function TodoList() {
-  
   const [todos, setTodos] = useState([]);
 
   const addTodo = (todo) => {
@@ -12,12 +11,10 @@ function TodoList() {
     }
 
     const newTodos = [todo, ...todos];
-    
     setTodos(newTodos);
   };
 
   const removeTodo = (id) => {
-    
     const removeArray = [...todos].filter((todo) => todo.id !== id);
     setTodos(removeArray);
   };
