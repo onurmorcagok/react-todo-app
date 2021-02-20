@@ -17,6 +17,7 @@ function TodoForm(props) {
     e.preventDefault();
 
     props.onSubmit({
+      // Submit after send props
       id: Math.floor(Math.random() * 10000), // Random ID created !
       text: input,
     });
