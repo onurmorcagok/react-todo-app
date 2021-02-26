@@ -10,6 +10,7 @@ function Todo({ todos, completeTodo, removeTodo, updateTodo }) {
   });
 
   const submitUpdate = (value) => {
+    // Update todo and submit
     updateTodo(edit.id, value);
     setEdit({
       id: null,
